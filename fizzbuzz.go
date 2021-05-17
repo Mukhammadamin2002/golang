@@ -11,7 +11,7 @@ func main() {
 		if i%5 == 0 {
 			st += "Buzz"
 		}
-		if i%15 == 0 {
+		if i%3 == 0 && i%5 {
 			st += "FizzBuzz"
 		}
 		if st != "" {
